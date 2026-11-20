@@ -5,13 +5,14 @@
   "author": "jeisson <jparedesc@tecsup.edu.pe>",
   "license": "MIT",
   "private": false,
-  "scripts":{
+  "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js"
   },
-
+  "dependencies": {
+    "dotenv": "^18.0.10"
+  },
   "devDependencies": {
-    "dotenv": "^18.0.10",
     "nodemon": "^3.1.14"
   }
 }
